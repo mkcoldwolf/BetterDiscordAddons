@@ -1,0 +1,311 @@
+/**
+ * @name FutureTianYi
+ * @author mkcoldwolf
+ * @version 0.2
+ * @invite DCEJ22X
+ * @description Future blue theme using color #66CCFF (TianYi Blue), and provide a square and compact UI.
+ * @source https://github.com/mkcoldwolf/BetterDiscordAddons/tree/master/Themes/FutureTianYi
+ * @updateUrl https://raw.githubusercontent.com/mkcoldwolf/BetterDiscordAddons/master/Themes/FutureTianYi/FutureTianYi.theme.css
+ * @website https://mccwtech.net
+*/
+
+/*Whole App*/
+.layer-86YKbF:not(:hover) {
+    opacity: 0.9;
+}
+
+.layer-86YKbF:hover {
+    opacity: 0.85;
+}
+
+/*Background place*/
+.layers-OrUESM  {
+    /* background-image: url("https://i.imgur.com/w7UVsOs.jpg"); */
+    /* background-image: url("https://mc.mccwtech.net/images/wallpaper/twitterbackground.jpg"); */
+    /* background-image: url("https://i.imgur.com/vQtTwhg.jpg"); */
+    /* background-image: url("https://konachan.com/jpeg/69dc283286d40c53e062f0ea634e12da/Konachan.com%20-%20246064%20blonde_hair%20bow%20brown_eyes%20clouds%20graffiti%20green_eyes%20hat%20idolmaster%20loli%20long_hair%20navel%20necklace%20pink_hair%20short_hair%20sky%20thighhighs%20wristwear.jpg"); */
+    /* background-image: url("https://konachan.com/image/33a1cbd28181e91c6ff5d429f2ffb188/Konachan.com%20-%20270197%20long_hair%20mivit%20original%20pink_hair%20techgirl%20teddy_bear%20watermark%20wings.jpg"); */
+    /* background-image: url("https://mc.mccwtech.net/images/wallpaper/watermark%20wings.jpg"); */
+    /* background-image: url("https://mc.mccwtech.net/images/wallpaper/V4LuoTianYi.png"); */
+    /* background-image: url("https://mc.mccwtech.net/images/wallpaper/LuoTianYi.jpg"); */
+    /* background-image: url("https://mc.mccwtech.net/images/wallpaper/windowsgirl.jpg"); */
+    /* background-image: url("https://mc.mccwtech.net/images/wallpaper/KlByvAi.jpg"); */
+    /*background-image: url("https://mc.mccwtech.net/images/wallpaper/INVAXION-IMAGINE.png");*/
+    /*background-image: url("https://mc.mccwtech.net/images/wallpaper/spacegirl.jpg");*/
+    background-image: url("https://pbs.twimg.com/media/DQgih3VVwAE6M4T.png");
+    /* background-image: url("http://rin.linovel.net/wallpaper/1488354215_58b67ba7f1bac.jpg"); */
+    /* background-image: url("http://rin.linovel.net/wallpaper/1472793120_57c90a2067cb0.jpg"); */
+    /* background-image: url("https://i.pinimg.com/originals/ff/7e/08/ff7e08903268e405102e3f1cff8cf929.jpg"); */
+    /* background-image: url("https://cdn.discordapp.com/attachments/336148484921229313/485700816347594752/megumin.jpg"); */
+    /* background-image: url("https://i.imgur.com/kN6DHaF.png"); */
+    /* background-image: url("https://mc.mccwtech.net/images/wallpaper/forever7_girl.jpg"); */
+    /* background-image: url("https://images5.alphacoders.com/653/thumb-1920-653610.jpg"); */
+    /* background-image: url("http://www.biocenit.cat/mypics/79/792395/nekopara-wallpaper.jpg"); */
+    /* background-image: url("https://images4.alphacoders.com/785/thumb-1920-785975.png"); */
+    /* background-image: url("https://mc.mccwtech.net/images/wallpaper/1920x1200-1484905-nekopara.jpg"); */
+    /*background-image: url("https://mc.mccwtech.net/images/wallpaper/2000x1500-1245683-nekopara.jpg");*/
+    /*background-image: url("https://mc.mccwtech.net/images/wallpaper/2016-12-25-879895.png");*/
+    /*background-image: url("https://mc.mccwtech.net/images/wallpaper/543192162_preview_Neko.Para.full.1802939.jpg");*/
+    /*background-image: url("https://mc.mccwtech.net/images/wallpaper/Chocola-and-vanilla-Nekopara-anime-girls.jpg");*/
+    /*background-image: url("https://mc.mccwtech.net/images/wallpaper/71258635_p0_master1200.jpg");*/
+    /*background-image: url("https://mc.mccwtech.net/images/wallpaper/neko253.jpg");*/
+    /* background-image: url("https://mc.mccwtech.net/images/wallpaper/5anime_together.png"); */
+    /* background-image: url("https://mc.mccwtech.net/images/wallpaper/pink_neko.jpg"); */
+    /* background-image: url("https://pixiv.cat/70630154.png"); */
+    /*background-image: url("");*/
+    background-size: cover !important;
+    background-position: center top;
+}
+
+/*Friend List*/
+.theme-dark .peopleColumn-1wMU14 {
+	background-color: rgba(0, 0, 0, 1);
+}
+
+/*Game Activity Panel*/
+.theme-dark .container-1oAagU {
+    background-color: rgba(0, 0, 0, 1);
+}
+/*Game Activity Content*/
+.theme-dark .container-1oAagU .itemCard-3Etziu {
+	border-radius: 3px;
+	background-color: rgba(102, 204, 255, 0.6);
+}
+/*Game Activity Content Details*/
+.theme-dark .container-1oAagU .section-3G9aLW {
+	background-color: rgba(0, 0, 0, 0.8);
+}
+/*Server Notice Panel (Game Activity)*/
+.theme-dark .activityPanel-9icbyU {
+    background-color: rgba(0, 0, 0, 1);
+	border-style: solid;
+	border-color: rgba(102, 204, 255, 0.8);
+	border-width: 2px 0px 0px 0px;
+}
+/*Server Notice Panel (Connection Info)*/
+.wrapper-3Hk9OB  {
+    background-color: rgba(0, 0, 0, 1);
+	border-style: solid;
+	border-color: rgba(102, 204, 255, 0.8);
+	border-width: 2px 0px 0px 0px;
+}
+/*Server Notice Panel (Live Info)*/
+.theme-dark .panel-VoWSbJ {
+    background-color: rgba(0, 0, 0, 1);
+}
+/*Server Notice Panel (User Info)*/
+.theme-dark .container-YkUktl {
+    background-color: rgba(0, 0, 0, 1);
+}
+
+/*Channel Notice Panel*/
+.channelNotices-41mJbj .channelNotice-1-XFjC.invite-OjTXrW {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.channelNotices-41mJbj .channelNotice-1-XFjC.quickswitcher-35bYg4 {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+/*Channel Notice Button*/
+.channelNotices-41mJbj .channelNotice-1-XFjC .message-3SOT5P .btn-11C5_u {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/*Server List Panel*/
+.scroller-3X7KbA.scrollerBase-_bVAAt {
+    background-color: rgba(0, 0, 0, 1);
+}
+/*Server List Add/Search Server Icon*/
+.circleIconButton-hZmpE8 {
+    color: rgba(102, 204, 255, 1);
+}
+.circleIconButton-hZmpE8:hover {
+    background-color: black;
+    color: rgba(102, 204, 255, 1);
+}
+
+/*Message Panel Top*/
+.theme-dark .container-ZMc96U {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/*Message Panel Left (Channel List)*/
+.sidebar-1tnWFu>.container-1NXEtd {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Channel List: Fix top left corner radius*/
+.sidebar-1tnWFu {
+    border-radius: 0px !important;
+}
+/*Message Panel Left (DM List)*/
+.privateChannels-oVe7HL, .scroller-WSmht3 {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/*Channel Text Read Colour*/
+.theme-dark .scroller-1ox3I2 .channelName-3KPsGw {
+    color: #66ccff;
+}
+
+/*Channel Text Selected Colour*/
+.scroller-1ox3I2 .selected-2TbFuo {
+    background-color: rgba(102, 204, 255, 0.9);
+}
+.scroller-1ox3I2 .selected-2TbFuo .channelName-3KPsGw {
+    color: black;
+}
+.scroller-1ox3I2 .selected-2TbFuo .content-1gYQeQ {
+    border-radius: 0px;
+}
+
+.theme-dark .wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU, .theme-dark .wrapper-1ucjTd.modeSelected-1zApJ_:hover .content-3at_AU, .theme-light .wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU, .theme-light .wrapper-1ucjTd.modeSelected-1zApJ_:hover .content-3at_AU {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/*Message Panel*/
+.chatContent-3KubbW {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/*Message Input Panel Layer 1*/
+.chatContent-3KubbW .form-3gdLxP {
+	padding: 0px;
+	margin-left: 16px;
+	margin-right: 16px;
+}
+
+/*Message Input Panel Layer 2*/
+.chatContent-3KubbW .form-3gdLxP .channelTextArea-1VQBuV {
+	border-radius: 0px;
+	background-color: rgba(0, 0, 0, 0);
+}
+
+/*Message Input Feild*/
+.scrollableContainer-15eg7h {
+    box-shadow: 0 0 10px #9ecaed;
+    background-color: black;
+    border-radius: 2px;
+
+	border-style: solid;
+	border-width: 2px 0px 0px 0px;
+	border-color: rgba(102, 204, 255, 0.8);
+}
+
+/*Remove Gift, GIF and STICKERS in Input Feild*/
+.buttons-uaqb-5>div:nth-child(1), .buttons-uaqb-5>div:nth-child(2) {
+    display: none;
+}
+
+/*When Someone Typeing Notice*/
+.theme-dark .typing-2GQL18 {
+    background-color: rgba(0, 0, -1, 0.8);
+}
+
+/*Server User List*/
+.theme-dark .members-3WRCEx>div {
+    background-color: rgba(0, 0, 0, 0);
+}
+.theme-dark .members-3WRCEx {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+/* Server User List: Empty Space*/
+.theme-dark .container-2wlB3z {
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+/*Message Panel user avatar go square*/
+.contents-2mQqc9>.avatar-1BDn8e {
+    border-radius: 10%;
+}
+
+/* Voice Channel user avatar go square */
+.avatar-3FKimL {
+    border-radius: 20%;
+}
+/*All Server Icon plz go square 2*/
+.bd-guild foreignObject, .listItemWrapper-3d87LP foreignObject {
+	mask: none !important;
+    border-radius: 10%;
+}
+
+/*Window Top Panel*/
+.typeWindows-1za-n7.titleBar-AC4pGV.horizontalReverse-3tRjY7.flex-1O1GKY.directionRowReverse-m8IjIq.justifyStart-2NDFzi.alignStretch-DpGPf3 {
+    /* background-color: rgba(60, 130, 200, 0.9); */
+    /* background-color: rgba(0, 0, 0, 0.2); */
+    /* opacity: 0; */
+}
+
+/*Message Panel Scrollbar*/
+.theme-dark .chatContent-3KubbW .messagesWrapper-RpOMA3 ::-webkit-scrollbar {
+    width: 15px;
+    /* background-color: #66ccff; */
+}
+.theme-dark .chatContent-3KubbW .messagesWrapper-RpOMA3 ::-webkit-scrollbar-thumb {
+    box-shadow: inset 0px 0px 10px #4287f5;
+    background-color: #66ccff;
+    border-radius: 0px;
+}
+.theme-dark .chatContent-3KubbW .messagesWrapper-RpOMA3 ::-webkit-scrollbar-track {
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 0px;
+}
+
+/*Pop Ups*/
+
+/*Message Options*/
+.wrapper-2vIMkT {
+	border-radius: 2px;
+	background-color: rgba(102, 204, 255, 0.6);
+}
+/*Unread Message Noti*/
+.bar-2eAyLE {
+	border-radius: 2px;
+	background-color: rgba(0, 0, 0, 0.8);
+	border-style: solid;
+	border-width: 2px;
+	border-color: rgba(102, 204, 255, 1);
+}
+
+/*Plugins Panel*/
+
+/*DiscordTabChannel*/
+.channelTabs-tabContainer {
+    background-color: rgba(0, 0, 0, 0.8) !important;
+    --channelTabs-tabHeight: 15px;
+}
+
+.channelTabs-tab {
+    background-color: rgba(102, 204, 255, 0.7) !important;
+    border-radius: 2px !important;
+    margin: 0px 1px !important;
+    --channelTabs-tabWidth: 150px;
+}
+
+.channelTabs-closeTab {
+    width: 12px !important;
+    height: 12px !important;
+    line-height: 12px !important;
+    font-size: 12px !important;
+    border-radius: 0px 2px 0px 2px !important;
+}
+
+.channelTabs-newTab {
+	color: rgba(102, 204, 255, 1) !important;
+	border-radius: 2px !important;
+	transition: color .15s ease-out,background-color .15s ease-out;
+}
+
+.channelTabs-newTab:hover {
+	background-color: rgba(0, 0, 0, 0) !important;
+}
+
+.channelTabs-tabName {
+    width: calc(var(--channelTabs-tabWidth) - var(--channelTabs-tabHeight) - 36px) !important;
+    font-size: 85%;
+}
+
+#channelTabs-settingsMenu {
+    width: 30px !important;
+    height: 100% !important;
+    border-radius: 0px !important;
+}
