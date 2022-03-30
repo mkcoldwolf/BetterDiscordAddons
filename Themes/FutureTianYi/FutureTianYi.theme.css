@@ -214,7 +214,7 @@
 }
 
 /*Message Panel user avatar go square*/
-.contents-2mQqc9>.avatar-1BDn8e {
+.contents-2MsGLg>.avatar-2e8lTP {
     border-radius: 10%;
 }
 
@@ -225,7 +225,7 @@
 /*All Server Icon plz go square 2*/
 .bd-guild foreignObject, .listItemWrapper-3d87LP foreignObject {
 	mask: none !important;
-    border-radius: 10%;
+    border-radius: 10% !important;
 }
 
 /*Window Top Panel*/
@@ -268,10 +268,9 @@
 
 /*Plugins Panel*/
 
-/*DiscordTabChannel*/
+/*Plugin:ChannelTabs*/
 .channelTabs-tabContainer {
-    background-color: rgba(0, 0, 0, 0.8) !important;
-    --channelTabs-tabHeight: 15px;
+    --channelTabs-tabHeight: 25px;
 }
 
 .channelTabs-tab {
@@ -281,31 +280,60 @@
     --channelTabs-tabWidth: 150px;
 }
 
+.channelTabs-tab:hover {
+	cursor: pointer;
+	background-color: rgba(102, 204, 255, 1) !important;
+	transition: color .15s ease-out, background-color .15s ease-out;
+}
+
 .channelTabs-closeTab {
-    width: 12px !important;
-    height: 12px !important;
-    line-height: 12px !important;
+	background-color: rgba(0, 0, 0, 0.2);
+    width: 15px !important;
+    height: 15px !important;
+    line-height: 14px !important;
     font-size: 12px !important;
     border-radius: 0px 2px 0px 2px !important;
+	color: rgba(102, 204, 255, 1) !important;
+}
+
+.channelTabs-closeTab:hover {
+	background-color: rgba(0, 0, 0, 0.6) !important;
+	cursor: 
 }
 
 .channelTabs-newTab {
+	background-color: rgba(255, 255, 255, 0.2);
 	color: rgba(102, 204, 255, 1) !important;
 	border-radius: 2px !important;
-	transition: color .15s ease-out,background-color .15s ease-out;
+	transition: color .15s ease-out, background-color .15s ease-out;
 }
 
 .channelTabs-newTab:hover {
 	background-color: rgba(0, 0, 0, 0) !important;
 }
 
+.channelTabs-tabIcon, .channelTabs-noneIcon {
+	border-radius: 20% !important;
+}
+	
 .channelTabs-tabName {
+	color: rgba(255, 255, 255, 0.6) !important;
     width: calc(var(--channelTabs-tabWidth) - var(--channelTabs-tabHeight) - 36px) !important;
-    font-size: 85%;
+}
+
+.channelTabs-classicBadgeAlignment {
+	border-radius: 2px !important;
+	margin-right: 8px !important;
 }
 
 #channelTabs-settingsMenu {
     width: 30px !important;
     height: 100% !important;
     border-radius: 0px !important;
+}
+
+/*Plugin:ServerFolders*/
+.wrapper-38slSD foreignObject {
+	mask: none !important;
+    border-radius: 10% !important;
 }
