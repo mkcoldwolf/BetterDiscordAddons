@@ -192,8 +192,8 @@
 }
 
 /*Remove Gift, GIF and STICKERS in Input Feild*/
-.buttons-uaqb-5>div:nth-child(1), .buttons-uaqb-5>div:nth-child(2) {
-    display: none;
+.buttons-uaqb-5>*:nth-child(1), .buttons-uaqb-5>*:nth-child(2), .buttons-uaqb-5>*:nth-child(3) {
+    display: none !important;
 }
 
 /*When Someone Typeing Notice*/
@@ -298,7 +298,7 @@
 
 .channelTabs-closeTab:hover {
 	background-color: rgba(0, 0, 0, 0.6) !important;
-	cursor: 
+	cursor:
 }
 
 .channelTabs-newTab {
@@ -315,7 +315,7 @@
 .channelTabs-tabIcon, .channelTabs-noneIcon {
 	border-radius: 20% !important;
 }
-	
+
 .channelTabs-tabName {
 	color: rgba(255, 255, 255, 0.6) !important;
     width: calc(var(--channelTabs-tabWidth) - var(--channelTabs-tabHeight) - 36px) !important;
@@ -328,7 +328,7 @@
 
 #channelTabs-settingsMenu {
     width: 30px !important;
-    height: 100% !important;
+    /* height: 100% !important; */
     border-radius: 0px !important;
 }
 
