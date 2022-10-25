@@ -202,15 +202,15 @@
 }
 
 /*Server User List*/
-.theme-dark .members-3WRCEx>div {
+.theme-dark .members-3WRCEx {
+    background-color: rgba(0, 0, 0, 0.85);
+}
+.theme-dark .member-48YF_l {
     background-color: rgba(0, 0, 0, 0);
 }
-.theme-dark .members-3WRCEx {
-    background-color: rgba(0, 0, 0, 0.8);
-}
 /* Server User List: Empty Space*/
-.theme-dark .container-2wlB3z {
-	background-color: rgba(0, 0, 0, 0.8);
+.theme-dark .container-q97qHp {
+	background-color: rgba(0, 0, 0, 0);
 }
 
 /*Message Panel user avatar go square*/
